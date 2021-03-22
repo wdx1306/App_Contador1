@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Mi Primera App</string>
+    <string name="Etiqueta_boton_uno">Ir a segunda Actividad</string>
+    <string name="Etiqueta_boton_dos">Ir a tercera Actividad</string>
+    <string name="etiqueta_boton_inicio">Incio</string>
+    <string name="Etiqueta_boton_incrementar">Incrementar</string>
+    <string name="Etiqueta_boton_disminuir">Disminuir</string>
+    <string name="Etiqueta_textView_Numero1">0</string>
+    <string name="EtiquetaNombre">Jesus Miguel Nava Cervantes</string>
+    <string name="Etiquetacarrera">Tecnologias de la informacion</string>
 </resources>

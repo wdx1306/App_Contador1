@@ -9,15 +9,29 @@
     tools:visibility="visible">
 
     <Button
-        android:id="@+id/btn_segunda"
-        android:layout_width="368dp"
-        android:layout_height="65dp"
-        android:text="Segunda Vista"
+        android:id="@+id/Btn_SegundaVista"
+        android:layout_width="354dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/Etiqueta_boton_uno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_TerceraVista"
+        android:layout_width="354dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/Etiqueta_boton_dos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
